@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
+
+*/
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  color: #222c2a;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+section,
+footer {
+  padding: 4em 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1128px;
+}
+
+.sectionTitle {
+  font-size: 2.25rem;
+  color: #f3eed9;
+}
+
+.sectionTitleDark {
+  color: black;
+}
+
+.intro {
+  background: #c0c5c1;
+  text-align: center;
+  color: black;
+  min-height: 660px;
+  display: flex;
+  align-items: center;
+}
+
+.introText {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 1.125rem;
+  color: #222c2a;
+  margin: 0 0 0.25em;
+}
+
+.introTitle {
+  font-size: 3rem;
+}
+
+.sectionThree,
+.sectionFive {
+  background-color: #bbbe64;
+  color: #fff;
+}
+
+.sectionFour,
+.sectionSix {
+  background-color: #443850;
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.linkBookClub {
+  text-decoration: none;
+  color: #fff;
+}
+
+.linkBookClub:hover {
+  color: rebeccapurple;
+}
+
+.monthlyBook {
+  width: 225px;
+  height: 300px;
+}
+
+footer {
+  background-color: #c0c5c1;
+}
+
+h4 {
+  color: black;
+  font-size: 1.325rem;
+  font-weight: 400;
+}
+/*How to fix ul not centering  https://stackoverflow.com/questions/39821870/cant-center-a-ul*/
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li,
+ul li a {
+  color: black;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: 1rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li a:hover {
+  color: #443850;
+}
+
+@media (max-width: 800px) {
+  footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col,
+  .col2 {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 5em;
+  }
+
+  .row + .row {
+    margin-left: 1em;
+  }
+
+  .intro__title {
+    font-size: 3.75rem;
+  }
+
+  .spiltForty {
+    width: 40%;
+  }
+
+  .spiltSixty {
+    width: 60%;
+  }
+}
